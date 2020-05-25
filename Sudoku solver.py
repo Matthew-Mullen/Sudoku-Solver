@@ -1,9 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[6]:
-
-
+# Soduku solver in python enjoy
 def solver(board):
     empty=find_empty(board)
     # if we have no emptys left that means the job is done and we have filled in the board and validated it
@@ -74,23 +69,7 @@ def print_board(board):
                 print(board[i][j], end=" ")
 
     print(" ┖─────────┸─────────┸─────────┚")
-board=[
-    [8, 0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 3, 6, 0, 0, 0, 0, 0],
-    [0, 7, 0, 0, 9, 0, 2, 0, 0],
-    [0, 5, 0, 0, 0, 7, 0, 0, 0],
-    [0, 0, 0, 0, 4, 5, 7, 0, 0],
-    [0, 0, 0, 1, 0, 0, 0, 3, 0],
-    [0, 0, 1, 0, 0, 0, 0, 6, 8],
-    [0, 0, 8, 5, 0, 0, 0, 1, 0],
-    [0, 9, 0, 0, 0, 0, 4, 0, 0]
-]
-print_board(board)
-solver(board)
-print_board(board)
 
-
-# In[ ]:
 
 
 
