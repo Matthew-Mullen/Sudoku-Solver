@@ -1,4 +1,3 @@
-# Soduku solver in python enjoy
 def solver(board):
     empty=find_empty(board)
     # if we have no emptys left that means the job is done and we have filled in the board and validated it
